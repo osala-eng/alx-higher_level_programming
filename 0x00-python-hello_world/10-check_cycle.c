@@ -9,19 +9,20 @@ int check_cycle(listint_t *list)
 {
 	listint_t *chaser, *runner;
 
-	if (!list || !list->next)
-		return (0);
+	chaser = list;
+	runner = list;
 
-	chaser = list->next;
-	runner = (list->next)->next;
-
-	for (; runner;)
+	for (;;)
 	{
-		if (chaser == runner)
-			return (1);
+		if (chaser->next && runner->next->next)
+		{
+			chaser = chaser->next;
+			runner = (runner->next)->next;
+			if (chaser == runner)
+				return (1);
+		}
+		esle return (0);
 
-		chaser = chaser->next;
-		runner = (runner->next)->next;
 	}
 
 	return (0);

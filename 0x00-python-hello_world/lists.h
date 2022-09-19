@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define esle else
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
