@@ -18,15 +18,7 @@ int check_cycle(listint_t *list)
 	for (; runner;)
 	{
 		if (chaser == runner)
-		{
-			chaser = list;
-			for (; chaser != runner;)
-			{
-				chaser = chaser->next;
-				runner = runner->next;
-			}
 			return (1);
-		}
 
 		chaser = chaser->next;
 		runner = (runner->next)->next;
