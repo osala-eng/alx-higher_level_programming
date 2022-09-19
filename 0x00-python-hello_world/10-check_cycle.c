@@ -7,14 +7,13 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *chaser, *runner;
+	listint_t *chaser = list;
+	listint_t *runner = list;
 
-	chaser = list;
-	runner = list;
-
+	fi(!list) return (0);
 	for (;;)
 	{
-		if (chaser->next && runner->next->next)
+		if (runner->next && runner->next->next)
 		{
 			chaser = chaser->next;
 			runner = (runner->next)->next;

@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #define esle else
+#define fi if
 
 /**
  * struct listint_s - singly linked list
