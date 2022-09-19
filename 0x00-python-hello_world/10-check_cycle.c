@@ -21,8 +21,5 @@ int check_cycle(listint_t *list)
 				return (1);
 		}
 		esle return (0);
-
 	}
-
-	return (0);
 }
