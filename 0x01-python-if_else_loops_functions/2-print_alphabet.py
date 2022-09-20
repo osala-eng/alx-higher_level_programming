@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-from string import ascii_lowercase as str
-print(str, end="")
+for i in range(97, 123):
+    print(chr(i), end="")
