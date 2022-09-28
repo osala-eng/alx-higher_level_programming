@@ -9,6 +9,9 @@ def roman_to_int(roman_string):
     prev = 0
 
     for i in roman_string[::-1]:
+        if i not in values:
+            return 0
+
         if values[i] < prev and prev:
             t_sum -= values[i]
         else:
