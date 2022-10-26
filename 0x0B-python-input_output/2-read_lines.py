@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 2-read_lines
 
 reads n lines and prints to stdout
 """

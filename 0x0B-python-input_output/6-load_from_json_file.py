@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 8-load_from_json_file
 
 creates a Python obj from JSON file
 """

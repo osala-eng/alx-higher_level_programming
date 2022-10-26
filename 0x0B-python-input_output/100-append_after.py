@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 100-append_after
 
 appends str after lines that include keyword
 """

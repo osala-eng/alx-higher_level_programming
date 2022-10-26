@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 10-class_to_json
 
 Contains function that
 returns dictionary description with simple data structure

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 5-to_json_string
 
 returns JSON representation of obj (string)
 """

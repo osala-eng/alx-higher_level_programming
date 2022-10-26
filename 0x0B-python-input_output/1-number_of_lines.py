@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 1-number_of_lines
 
 returns number of lines in text file
 """

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """
-Module 4-append_write
 
 appends to text file and returns num chars added
 """
