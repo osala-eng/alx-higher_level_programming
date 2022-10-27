@@ -1,0 +1,4 @@
+# Basic check
+
+	>>> print("Hello world!")
+	Hello world!
