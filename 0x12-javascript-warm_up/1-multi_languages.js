@@ -2,7 +2,7 @@
 
 const data = [
   'C is fun',
-  'Pyhton is cool',
+  'Python is cool',
   'JavaScript is amazing'
 ];
 
