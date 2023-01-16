@@ -1,3 +1,3 @@
 #!/bin/bash
 # Print curl content size
-curl -sLX DELETE "$1"
+curl -sX DELETE "$1"
