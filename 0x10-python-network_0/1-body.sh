@@ -1,3 +1,3 @@
 #!/bin/bash
-# Print curl content size
-curl -s "$1"
+# GET request and display the body of the response
+curl -sL "$1"
